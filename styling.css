@@ -1,0 +1,123 @@
+body{
+    font:Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+} 
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+}
+
+#menu{
+    background: linear-gradient(#F8F596, #D5D533);
+    background: -webkit-linear-gradient(#F8F596, #D5D533);
+    background: -o-linear-gradient(#F8F596, #D5D533);
+    background: -moz-linear-gradient(#F8F596, #D5D533);
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;;
+    border-radius: 20px;
+}
+
+#menu a{
+    padding: 0 30px;
+    height: 30px;
+}
+
+#home{
+    border-right: 1px solid #5d12e7;
+}
+
+#portfolio{
+    border-right: 1px solid #5d12e7;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu a:hover, #menu a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #628f19;
+    text-align: justify;
+}
+
+.sidebars{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarWrapper{
+    padding: 5px;
+    flex: 50%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#rightsidebar img{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.rollover {
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 882px;
+    height: 1080px;
+    background: url(Images/Banner2.jpg) no-repeat;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.rollover:hover {
+    background: url(Images/Banner1.jpg)
+}
